@@ -8,7 +8,7 @@ permalink: /swaption/
 A swaption is a financial instrument that provides an option based on the future value of an interest rate swap.
 The option is European, exercised only on the exercise date.
 
-For example, a swaption might involve an option which expires in 2Y years on an agreement to exchange the difference between the fixed rate of 1% and the 'GBP-LIBOR-3M' rate every 3 months for 5 years.
+A *physical delivery swaption* is such that an actual interest rate swap is entered into if the option is exercised. On the other hand, a *cash settled swaption* settles cash amount computed based on the future value if the option is exercised. 
 
 
 ## Key classes
