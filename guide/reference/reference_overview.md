@@ -48,6 +48,7 @@ interest rate swaps, FRAs and futures.
 For more information, see the following guides:
 
 * [FRA]({{site.baseurl}}/fra) - Forward Rate Agreements
+* [Swaption]({{site.baseurl}}/swaption)
 
 
 ## Market module
