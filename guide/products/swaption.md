@@ -15,7 +15,7 @@ A *physical delivery swaption* is such that an actual interest rate swap is ente
 
 A swaption is represented in Strata using the [`Swaption`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/Swaption.html) class.
 The `Swaption` class stores details of the product that was agreed.
-The trade details are stored in [`SwaptionTrade`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/swaptionTrade.html) class.
+The trade details are stored in [`SwaptionTrade`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/SwaptionTrade.html) class.
 
 A `Swaption` can be created using a builder as follows:
 
