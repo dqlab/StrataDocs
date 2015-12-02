@@ -13,9 +13,9 @@ A *physical delivery swaption* is such that an actual interest rate swap is ente
 
 ## Key classes
 
-A swaption is represented in Strata using the [`Swaption`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/Swaption/Swaption.html) class.
+A swaption is represented in Strata using the [`Swaption`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/Swaption.html) class.
 The `Swaption` class stores details of the product that was agreed.
-The trade details are stored in [`SwaptionTrade`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/SwaptionTrade.html) class.
+The trade details are stored in [`SwaptionTrade`]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/swaptionTrade.html) class.
 
 A `Swaption` can be created using a builder as follows:
 
@@ -80,7 +80,7 @@ SABR model pricer instead supports
 ## Product model
 
 The following table summarizes the fields on `Swaption` that can be used to control the product.
-For more detail on the meaning of each field, see the [Javadoc]({{site.baseurl}}/apidocs/com/opengamma/strata/product/Swaption/Swaption.html);
+For more detail on the meaning of each field, see the [Javadoc]({{site.baseurl}}/apidocs/com/opengamma/strata/product/swaption/Swaption.html);
 
 | Property name     | Description | Optional   |
 |-------------------|-------------|------------|
